@@ -1,0 +1,8 @@
+import os
+directory = 'Task1'
+content = "President Joe Biden and former President Donald Trump both clinched their parties' nomination on Tuesday, kicking off the first U.S. presidential election rematch in nearly 70 years.
+In the Republican race, 161 delegates were up for grabs across the four states holding contests: Georgia, Hawaii, Mississippi and Washington. Trump, the sole remaining Republican candidate, netted the 1,215 delegates needed to win his party's nomination.Joe Biden hailed the beginning of 3.3$bn in infrastructure spending in US projects on Wednesday "to right historic wrongs" with efforts to reconnect city neighborhoods riven by interstate highways that plowed with particular impunity through communities."
+for i in range(3,201)
+filename = os.path.join(directory, f"{i}.txt")
+with open(filename, 'w') as file:
+file.write(placeholder_content)
